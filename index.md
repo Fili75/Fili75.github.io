@@ -4,6 +4,8 @@ Oh che bel castello
 
 Asino chi legge
 
+# Mooseca
+
 [Conic decision boundaries](https://filianto.shinyapps.io/conics)
 
 
