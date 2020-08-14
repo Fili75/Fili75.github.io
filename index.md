@@ -4,5 +4,4 @@ Oh che bel castello
 
 Asino chi legge
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+[Conic decision boundaries](https://filianto.shinyapps.io/conics)
