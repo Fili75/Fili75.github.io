@@ -24,12 +24,9 @@ body {
 	font-size: 14px;
 	border-radius: 0px;
 	background-color: #fcf226;
-	border: thin solid #000000;
-	  a {
-   color: #1a1ef0;
- }
+	border: thin solid #000000
 }
-page-header {
+.page-header {
   color: #ffea05;
   text-align: left;
   background-color: #fff;
@@ -42,4 +39,8 @@ page-header {
     height: 300px;
     width: 100%;
 }
-
+#sidebarleft {
+	a {
+   	color: #1a1ef0;
+ }
+}
