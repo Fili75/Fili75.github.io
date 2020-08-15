@@ -1,6 +1,8 @@
 theme: jekyll-theme-cayman
 title: La Brace Accesa
 description: Salciccia piccante, quella dolce, provolone ,le olive...
-link2: publications 
+link2:
+  url:publications
+  tag:Publications
 header:
   image: assets/css/ind.jpeg
