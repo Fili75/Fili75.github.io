@@ -35,11 +35,13 @@
     </header>
 
     <div id="sidebarleft">
-      <h2 href="{{ site.link1url }}" class="btn">{{site.link1tag}}</h2>
-      <h2 href="{{ site.link2url }}" class="btn">{{site.link2tag}}</h2>
-      <h2 href="{{ site.link3url }}" class="btn">{{site.link3tag}}</h2>
-      <h2 href="{{ site.link4url }}" class="btn">{{site.link4tag}}</h2>
-     </div>
+      <ul>  
+        <li><h2 href="{{ site.link1url }}" class="btn">{{site.link1tag}}</h2></li>
+        <li><h2 href="{{ site.link2url }}" class="btn">{{site.link2tag}}</h2></li>
+        <li><h2 href="{{ site.link3url }}" class="btn">{{site.link3tag}}</h2></li>
+        <li><h2 href="{{ site.link4url }}" class="btn">{{site.link4tag}}</h2></li>
+      </ul> 
+    </div>
     
     <main id="content" class="main-content" role="main">
       {{ content }}
