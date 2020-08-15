@@ -22,11 +22,14 @@ body {
 	margin-top: 5px;
 	color: #006;
 	font-size: 14px;
-	border-radius: 8px;
-	background-color: #fdc6cb;
-	border: #000000;
+	border-radius: 0px;
+	background-color: #fcf226;
+	border: thin solid #000000;
+	  a {
+   color: #1a1ef0;
+ }
 }
-.page-header {
+page-header {
   color: #ffea05;
   text-align: left;
   background-color: #fff;
