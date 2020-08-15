@@ -7,10 +7,15 @@
    color: #ff0000;
  }
 }
+.main-content {
+  a {
+   color: #000000;
+ }
+}
 body {
    color: #4a7815;
  }
-.sidebarleft {
+#sidebarleft {
 	width:190px;
 	padding:8px;
 	float:left;
