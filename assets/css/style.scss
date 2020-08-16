@@ -35,12 +35,20 @@ body {
 }
 #sidebarleft{
 	li a.active {
-  color: #fff;
+  	color: #fff;
+	text-align: center;
+   	color: #1a1ef0;
+	background-color: transparent;
+	width: 180px;
 	}
 }
 #sidebarleft{
 li a:hover:not(.active) {
   color: #006;
+	text-align: center;
+   	color: #1a1ef0;
+	background-color: transparent;
+	width: 180px;
 	}
 }
 .page-header {
@@ -55,12 +63,4 @@ li a:hover:not(.active) {
     background-repeat: no-repeat;
     height: 300px;
     width: 100%;
-}
-#sidebarleft {
-	a {
-	text-align: center;
-   	color: #1a1ef0;
-	background-color: transparent;
-	width: 180px;
- }
 }
