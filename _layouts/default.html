@@ -36,27 +36,13 @@
 
     <div id="sidebarleft">
       <ul>
-        <li><a class="bu">{{site.link1tag}}</a></li>
-        <li><a class="bu">{{site.link2tag}}</a></li>
-        <li><a href="{{ site.link3url }}" class="bu">{{site.link3tag}}</a></li>
-        <li><a href="{{ site.link4url }}" class="bu">{{site.link4tag}}</a></li>
+        <li><a href="{{ site.link1url }}" class="active">{{site.link1tag}}</a></li>
+        <li><a href="{{ site.link2url }}">{{site.link2tag}}</a></li>
+        <li><a href="{{ site.link3url }}">{{site.link3tag}}</a></li>
+        <li><a href="{{ site.link4url }}">{{site.link4tag}}</a></li>
       </ul>
     </div>
     
-    <script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("sidebarleft");
-var btns = header.getElementsByClassName("bu");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  if (current.length > 0) { 
-    current[0].className = current[0].className.replace(" active", "");
-  }
-  this.className += " active";
-  });
-}
-</script>
     <main id="content" class="main-content" role="main">
       {{ content }}
 
