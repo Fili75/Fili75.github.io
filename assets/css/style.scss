@@ -35,12 +35,17 @@ body {
 }
 #sidebarleft{
 	a {
-  	color: #fff;
 	text-align: center;
    	color: #1a1ef0;
 	background-color: transparent;
 	width: 180px;
 }
+	a:active {
+	text-align: center;
+   	color: #fff;
+	background-color: transparent;
+	width: 180px;
+	}
 }
 .page-header {
   color: #ffea05;
