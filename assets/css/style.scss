@@ -34,7 +34,7 @@ body {
 	}
 }
 #sidebarleft{
-	btn {
+	a {
 	text-align: center;
    	color: #1a1ef0;
 	background-color: transparent;
@@ -42,7 +42,7 @@ body {
 }
 }
 #sidebarleft{
-	active {
+	a.active {
 	text-align: center;
    	color: #fff;
 	background-color: transparent;
