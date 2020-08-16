@@ -34,9 +34,17 @@ body {
 	}
 }
 #sidebarleft{
-	a {
+	btn {
 	text-align: center;
    	color: #1a1ef0;
+	background-color: transparent;
+	width: 180px;
+}
+}
+#sidebarleft{
+	active {
+	text-align: center;
+   	color: #fff;
 	background-color: transparent;
 	width: 180px;
 }
