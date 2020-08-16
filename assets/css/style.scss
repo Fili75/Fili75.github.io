@@ -33,22 +33,19 @@ body {
 		padding: 0;
 	}
 }
-#sidebarleft{
-	a {
+li a {
 	text-align: center;
    	color: #1a1ef0;
 	background-color: transparent;
 	width: 180px;
 }
-}
-#sidebarleft{
-	a.active {
+li a.active {
 	text-align: center;
    	color: #fff;
 	background-color: transparent;
 	width: 180px;
 }
-}
+
 
 .page-header {
   color: #ffea05;
