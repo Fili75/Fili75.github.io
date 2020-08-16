@@ -34,21 +34,25 @@ body {
 	}
 }
 #sidebarleft{
-	a.active {
+	ul {
+	li a.active {
   	color: #fff;
 	text-align: center;
    	color: #1a1ef0;
 	background-color: transparent;
 	width: 180px;
 	}
+	}
 }
 #sidebarleft{
-a:hover:not(.active) {
+	ul {
+	li a:hover:not(.active) {
   color: #006;
 	text-align: center;
    	color: #1a1ef0;
 	background-color: transparent;
 	width: 180px;
+	}
 	}
 }
 .page-header {
