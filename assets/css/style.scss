@@ -34,27 +34,14 @@ body {
 	}
 }
 #sidebarleft{
-	ul {
-	li a.active {
+	a {
   	color: #fff;
 	text-align: center;
    	color: #1a1ef0;
 	background-color: transparent;
 	width: 180px;
-	}
-	}
 }
-#sidebarleft{
-	ul {
-	li a:hover:not(.active) {
-  color: #006;
-	text-align: center;
-   	color: #1a1ef0;
-	background-color: transparent;
-	width: 180px;
-	}
-	}
-}
+
 .page-header {
   color: #ffea05;
   text-align: left;
