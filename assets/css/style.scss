@@ -26,6 +26,11 @@ body {
 	background-color: #fcf226;
 	border: thin solid #000000
 }
+#sidebarleft{
+	ul {
+		list-style-type: none;
+	}
+}
 .page-header {
   color: #ffea05;
   text-align: left;
