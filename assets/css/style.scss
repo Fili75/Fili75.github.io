@@ -34,12 +34,12 @@ body {
 	}
 }
 #sidebarleft{
-	li a.active {
+	a.active {
   color: #fff;
 	}
 }
 #sidebarleft{
-li a:hover:not(.active) {
+a:hover:not(.active) {
   color: #006;
 	}
 }
