@@ -32,13 +32,16 @@ body {
 		margin: 0;
 		padding: 0;
 	}
-	li a.active {
-  color: white;
 }
-
+#sidebarleft{
+	li a.active {
+  color: #fff;
+	}
+}
+#sidebarleft{
 li a:hover:not(.active) {
   color: #006;
-}
+	}
 }
 .page-header {
   color: #ffea05;
