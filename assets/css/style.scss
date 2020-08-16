@@ -34,7 +34,7 @@ body {
 	}
 }
 #sidebarleft{
-	li a.active {
+	a.active {
   	color: #fff;
 	text-align: center;
    	color: #1a1ef0;
@@ -43,7 +43,7 @@ body {
 	}
 }
 #sidebarleft{
-li a:hover:not(.active) {
+a:hover:not(.active) {
   color: #006;
 	text-align: center;
    	color: #1a1ef0;
