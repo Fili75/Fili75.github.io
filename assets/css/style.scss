@@ -37,8 +37,10 @@ li a {
   border: none;
   outline: none;
   background-color: transparent;
-  cursor: none;
   font-size: 12px;
+	a {
+		color: #fff;
+	}
 }
 
 /* Style the active class, and buttons on mouse-over */
@@ -46,10 +48,11 @@ li a {
 	list-style-type: none;
   border: none;
   outline: none;
-  color: #fff;
   background-color: transparent;
-  cursor: none;
-  font-size: 12px;	
+  font-size: 12px;
+	a {
+		color: #ffOOOO;
+	}
 }
 .main {
   margin-left: 210px; /* Same as the width of the sidenav */
