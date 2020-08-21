@@ -36,10 +36,9 @@ li a {
 	list-style-type: none;
   border: none;
   outline: none;
-  padding: 10px 16px;
   background-color: transparent;
   cursor: none;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 /* Style the active class, and buttons on mouse-over */
@@ -47,11 +46,10 @@ li a {
 	list-style-type: none;
   border: none;
   outline: none;
-  padding: 10px 16px;
-	color: white;
+  color: #fff;
   background-color: transparent;
   cursor: none;
-  font-size: 18px;	
+  font-size: 12px;	
 }
 .main {
   margin-left: 210px; /* Same as the width of the sidenav */
