@@ -38,7 +38,7 @@
    
 <nav id="nav">
   <ul class="list  list--nav">
-    <li class="pr" >
+    <li class="active" >
         <a href="{{site.link1url}}">{{site.link1tag}}</a>
       </li>
       <li class="pr" >
@@ -52,16 +52,7 @@
       </li>
   </ul>
 
-<script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("nav");
-var btns = document.getElementsByClassName("pr");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-     this.className = " active";
-  });
-}
-</script>
+
     
     <main id="content" class="main-content" role="main">
       {{ content }}
