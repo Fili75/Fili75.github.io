@@ -1,9 +1,9 @@
 <nav id="nav">
   <ul class="list  list--nav">
-    <li class="active" >
+    <li class="pr" >
         <a href="{{site.link1url}}">{{site.link1tag}}</a>
       </li>
-      <li class="pr" >
+      <li class="active" >
         <a href="{{site.link2url}}">{{site.link2tag}}</a>
       </li>
       <li >
