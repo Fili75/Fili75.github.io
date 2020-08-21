@@ -15,7 +15,7 @@
 body {
    color: #4a7815;
  }
-#sidebarleft {
+.nav1 {
 	width:190px;
 	padding:8px;
 	float:left;
@@ -26,12 +26,6 @@ body {
 	background-color: #fcf226;
 	border: thin solid #000000
 }
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
-
 li a {
 	text-align: center;
    	color: #1a1ef0;
@@ -52,7 +46,11 @@ li a {
   background-color: #666;
   color: white;
 }
-
+.main {
+  margin-left: 190px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
 
 .page-header {
   color: #ffea05;
