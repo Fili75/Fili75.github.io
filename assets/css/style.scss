@@ -18,6 +18,7 @@ body {
 .nav1 {
 	width:190px;
 	padding:8px;
+	heigth:500px
 	float:left;
 	margin-top: 5px;
 	color: #ff00dd;
@@ -49,15 +50,10 @@ body {
 .active a {
 		color: #ff0000;
 	}
-.main-content {
-  margin-left: 300px; /* Same as the width of the sidenav */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
 
 .page-header {
   color: #ffea05;
-  text-align: center;
+  text-align: left;
   background-color: #fff;
   background-image: url("ind.jpeg") ;
     -webkit-background-size: cover; /* For WebKit*/
