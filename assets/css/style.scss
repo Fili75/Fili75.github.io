@@ -38,10 +38,11 @@ li a {
   outline: none;
   background-color: transparent;
   font-size: 12px;
-	a {
-		color: #fff;
-	}
+	
 }
+.pr a {
+		color: #fff000;
+	}
 
 /* Style the active class, and buttons on mouse-over */
 .active {
@@ -50,10 +51,10 @@ li a {
   outline: none;
   background-color: transparent;
   font-size: 12px;
-	a {
+}
+.active a {
 		color: #ffOOOO;
 	}
-}
 .main {
   margin-left: 210px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
