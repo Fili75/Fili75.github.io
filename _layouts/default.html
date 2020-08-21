@@ -38,17 +38,17 @@
    
 <nav id="nav">
   <ul class="list  list--nav">
-    <li class="pr">
-        <a class="pr" href="{{site.link1url}}">{{site.link1tag}}</a>
+    <li >
+        <a class="pr" ref="{{site.link1url}}">{{site.link1tag}}</a>
       </li>
-      <li class="pr">
-        <a class="pr" href="{{site.link2url}}">{{site.link2tag}}</a>
+      <li >
+        <a class="pr"href="{{site.link2url}}">{{site.link2tag}}</a>
       </li>
-      <li class="pr">
-        <a href="{{site.link3url}}">{{site.link3tag}}</a>
+      <li >
+        <a class="pr" href="{{site.link3url}}">{{site.link3tag}}</a>
       </li>
-      <li class="pr">
-        <a href="{{site.link4url}}">{{site.link4tag}}</a>
+      <li >
+        <a class="pr" href="{{site.link4url}}">{{site.link4tag}}</a>
       </li>
   </ul>
 
@@ -60,7 +60,7 @@ for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
   var current = document.getElementsByClassName("active");
   if (current.length > 0) { 
-    current[0].className = current[0].className.replace(" active", "");
+    current[0].className = current[0].className.replace("active","pr");
   }
   this.className += " active";
   });
