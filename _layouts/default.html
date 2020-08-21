@@ -36,55 +36,36 @@
 
 
    
-<nav class="nav  nav--header">
+<nav id="nav">
   <ul class="list  list--nav">
-    <li class="item  item--nav  item--current">
-        <a href="{{ site.link1url }}">{{site.link1tag}}</a>
+    <li class="pr">
+        <a>{{site.link1tag}}</a>
       </li>
-      <li class="item  item--nav">
-        <a href="{{ site.link2url }}">{{site.link2tag}}</a>
+      <li class="pr">
+        <a>{{site.link2tag}}</a>
       </li>
-      <li class="item  item--nav">
-        <a href="{{ site.link3url }}">{{site.link3tag}}</a>
+      <li class="pr">
+        <a>{{site.link3tag}}</a>
       </li>
-      <li class="item  item--nav">
-        <a href="{{ site.link4url }}">{{site.link4tag}}</a>
+      <li class="pr">
+        <a>{{site.link4tag}}</a>
       </li>
   </ul>
-</nav>   
 
-
-<script type="text/javascript">
-  // Get list and button
-  const navList = document.querySelector('.list--nav')
-  const button  = document.querySelector('.button--nav')
-
-  // Hide nav and apply toggle
-  const collapseNav = () => {
-    if (document.body.clientWidth < 640) {
-      navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
-    } else {
-      navList.removeAttribute('style')
-    }
-
-    button.onclick = () => {
-      navList.style.setProperty('transition', `margin .1s`)
-      if (navList.style.getPropertyValue('--listHeight')) {
-        navList.style.removeProperty('--listHeight')
-      } else {
-        navList.style.setProperty('--listHeight', `-${navList.offsetHeight}px`)
-      }
-    }
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("nav");
+var btns = document.getElementsByClassName("pr");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) { 
+    current[0].className = current[0].className.replace(" active", "");
   }
-
-  collapseNav()
-
-  // Check on resize if to collapse nav
-  window.addEventListener('resize', () => {
-    collapseNav()
-  })
-    </script>
-
+  this.className += " active";
+  });
+}
+</script>
     
     <main id="content" class="main-content" role="main">
       {{ content }}
