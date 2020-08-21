@@ -38,17 +38,17 @@
    
 <nav id="nav">
   <ul class="list  list--nav">
-    <li >
-        <a class="pr" ref="{{site.link1url}}">{{site.link1tag}}</a>
+    <li class="pr" >
+        <a ref="{{site.link1url}}">{{site.link1tag}}</a>
+      </li>
+      <li class="pr" >
+        <a "href="{{site.link1url}}">{{site.link2tag}}</a>
       </li>
       <li >
-        <a class="pr"href="{{site.link2url}}">{{site.link2tag}}</a>
+        <a href="{{site.link1url}}">{{site.link3tag}}</a>
       </li>
       <li >
-        <a class="pr" href="{{site.link3url}}">{{site.link3tag}}</a>
-      </li>
-      <li >
-        <a class="pr" href="{{site.link4url}}">{{site.link4tag}}</a>
+        <a  href="{{site.link1url}}">{{site.link4tag}}</a>
       </li>
   </ul>
 
@@ -62,6 +62,7 @@ for (var i = 0; i < btns.length; i++) {
   if (current.length > 0) { 
     current[0].className = current[0].className.replace("active","pr");
   }
+     this.className += " active";
   });
 }
 </script>
