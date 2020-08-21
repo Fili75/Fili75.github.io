@@ -40,8 +40,8 @@ li a {
   font-size: 12px;
 	
 }
-.pr a {
-		color: #fff000;
+.pr li a {
+	color: #fff000;
 	}
 
 /* Style the active class, and buttons on mouse-over */
@@ -52,10 +52,10 @@ li a {
   background-color: transparent;
   font-size: 12px;
 }
-.active a {
+.active li a {
 		color: #ffOOOO;
 	}
-.main {
+.main-content {
   margin-left: 210px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
