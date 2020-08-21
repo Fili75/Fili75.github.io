@@ -1,4 +1,4 @@
-<nav id="nav">
+<nav class="nav1">
   <ul class="list  list--nav">
     <li class="pr" >
         <a href="{{site.link1url}}">{{site.link1tag}}</a>
