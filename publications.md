@@ -1,6 +1,6 @@
 <nav class="nav1">
   <ul class="list  list--nav">
-    <li class="pr" >
+    <li class="fir" >
         <a href="{{site.link1url}}">{{site.link1tag}}</a>
       </li>
       <li class="active" >
