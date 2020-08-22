@@ -7,10 +7,10 @@
         <a href="{{site.link2url}}">{{site.link2tag}}</a>
       </li>
       <li class="pr">
-        <a href="{{site.link1url}}">{{site.link3tag}}</a>
+        <a href="{{site.link3url}}">{{site.link3tag}}</a>
       </li>
       <li class="active">
-        <a  href="{{site.link1url}}">{{site.link4tag}}</a>
+        <a  href="{{site.link4url}}">{{site.link4tag}}</a>
       </li>
   </ul>
  </nav> 
