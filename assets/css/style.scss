@@ -36,7 +36,23 @@ body {
   outline: none;
   background-color: transparent;
   font-size: 18px;
-}	
+}
+.fir a {
+	color: #fff000;
+	}
+.first-active{
+	padding: 10px 10px;
+	margin-left: 100px;
+	list-style-type: none;
+	float: left;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+.first-active a {
+		color: #ff0000;
+	}
 .pr {
 	padding: 10px 10px;
 	list-style-type: none;
