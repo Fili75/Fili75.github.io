@@ -30,15 +30,14 @@ body {
 	background-color: #ff00dd;
 	border: thin solid #000000
 }
-.nav1 li {
-	float: left;
-}
 .pr {
+	padding: 10px 10px;
 	list-style-type: none;
+	float: left;
   border: none;
   outline: none;
   background-color: transparent;
-  font-size: 12px;
+  font-size: 16px;
 	
 }
 .pr a {
@@ -47,11 +46,13 @@ body {
 
 /* Style the active class, and buttons on mouse-over */
 .active {
+	padding: 10px 10px;
 	list-style-type: none;
+	float: left;
   border: none;
   outline: none;
   background-color: transparent;
-  font-size: 12px;
+  font-size: 16px;
 }
 .active a {
 		color: #ff0000;
