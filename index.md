@@ -15,16 +15,12 @@
   </ul>
  </nav> 
 
+Hi! I am a Ph.D. student in Statistics at the Univeristy of Lille and Inria-Lille.
 
-Oh che bel castello 
-*prova1
-*prova2
+# Education
 
-Asino chi legge
+I got a B.Sc. in Mathematics at University of Catania and a M.Sc. in Statistics at University of Padua.
 
-# Mooseca
+I am an Alumno of Scuola Superiore di Catania.
 
-[Conic decision boundaries](https://filianto.shinyapps.io/conics)
-
-
-[Publications](publications)
+E-mail contact: filippo.antonazzo (at) inria.fr
