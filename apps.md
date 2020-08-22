@@ -15,4 +15,9 @@
   </ul>
  </nav> 
  
-ciao
+
+[Conic decision boundaries](https://filianto.shinyapps.io/conics)
+
+[Quadric decision boundaries](https://filianto.shinyapps.io/quadrics)
+
+[Covid-19 app](https://filianto.shinyapps.io/Covid)
