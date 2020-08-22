@@ -6,10 +6,10 @@
       <li class="active" >
         <a href="{{site.link2url}}">{{site.link2tag}}</a>
       </li>
-      <li >
+      <li class="pr">
         <a href="{{site.link1url}}">{{site.link3tag}}</a>
       </li>
-      <li >
+      <li class="pr">
         <a  href="{{site.link1url}}">{{site.link4tag}}</a>
       </li>
   </ul>
