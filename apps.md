@@ -15,6 +15,8 @@
   </ul>
  </nav> 
  
+Apps realized with Shiny R
+
 
 [Conic decision boundaries](https://filianto.shinyapps.io/conics)
 
