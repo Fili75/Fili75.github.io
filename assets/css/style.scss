@@ -5,6 +5,7 @@
 .main-content {
   h1 {
    color: #000000;
+	  font-size:24px;
  }
 }
 .main-content {
@@ -12,6 +13,7 @@
 }
 .main-content {
   a {
+	font-size:16px;
    color: #070708;
  }
 }
@@ -21,7 +23,7 @@ body {
  }
 .nav1 {
 	width:1300px;
-	height:60px;
+	height:40px;
 	margin-left: -100px;
 	color: #212140;
 	font-size: 14px;
@@ -91,8 +93,8 @@ body {
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
-    background-size: 1300px 250px ;
+    background-size: 1300px 220px ;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 220px;
     width: 1300px;
 }
