@@ -17,9 +17,11 @@
  
  <h1> Main Publications </h1>
  
+ At work...
+ 
  <h1> Contributions </h1>
  
- 1. <h3 href="https://link.springer.com/article/10.1007/s10072-020-04576-2">Optical coherence tomography in adult adrenoleukodystrophy: a cross-sectional and longitudinal study</h3>
+ 1.<p> <a href="https://link.springer.com/article/10.1007/s10072-020-04576-2" style="color:#445980,font-size:16px">Optical coherence tomography in adult adrenoleukodystrophy: a cross-sectional and longitudinal study</a></p>
 
     <p> Bianchi-Marzoli, S., Fenu, S., Melzi, L. et al. <em style="color:#474524"> Neurol Sci (2020). </em></p>
     
