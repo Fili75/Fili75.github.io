@@ -15,12 +15,12 @@
   </ul>
  </nav> 
 
-Hi! I am a Ph.D. student in Statistics at the Univeristy of Lille and Inria-Lille.
+Hi! I am a Ph.D. student in Statistics at the University of Lille and Inria-Lille.
 
 # Education
 
 I got a B.Sc. in Mathematics at University of Catania and a M.Sc. in Statistics at University of Padua.
 
-I am an Alumno of Scuola Superiore di Catania.
+I am a former student of Scuola Superiore di Catania.
 
 E-mail contact: filippo.antonazzo (at) inria.fr
