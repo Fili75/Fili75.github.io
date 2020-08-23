@@ -21,7 +21,7 @@
  
  1. [Optical coherence tomography in adult adrenoleukodystrophy: a cross-sectional and longitudinal study](https://link.springer.com/article/10.1007/s10072-020-04576-2)
  
-    <p> Bianchi-Marzoli, S., Fenu, S., Melzi, L. et al. <em style="color:#474524"> *Neurol Sci (2020)*. </em></p>
+    <p> Bianchi-Marzoli, S., Fenu, S., Melzi, L. et al. <em style="color:#474524"> Neurol Sci (2020). </em></p>
     
     
  
