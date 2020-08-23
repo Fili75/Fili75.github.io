@@ -15,11 +15,12 @@
   </ul>
  </nav> 
  
-Apps realized with Shiny R
+<h2 style="color:#445980;font-size:19px">Apps realized with Shiny R</h2>
 
 
-[Conic decision boundaries](https://filianto.shinyapps.io/conics)
+<p><a href="https://filianto.shinyapps.io/conics" style="color:#445980;font-size:16px">Conic decision boundaries</a></p>
 
-[Quadric decision boundaries](https://filianto.shinyapps.io/quadrics)
+<p> <a href="https://filianto.shinyapps.io/quadrics" style="color:#445980;font-size:16px">Quadric decision boundaries</a></p>
 
-[Covid-19 app](https://filianto.shinyapps.io/Covid)
+<p> <a href="https://filianto.shinyapps.io/Covid" style="color:#445980;font-size:16px">Covid-19 app</a></p>
+
