@@ -25,6 +25,6 @@ I am a former student of Scuola Superiore di Catania.
 
 # Research 
 
-Model-based clustering, mixture models and scalable methods for big data
+Model-based clustering, mixture models and scalable methods for big data.
 
 E-mail contact: filippo.antonazzo (at) inria.fr
