@@ -21,8 +21,8 @@
  
  <h1> Contributions </h1>
  <ol>
-  <li> <a href="https://link.springer.com/article/10.1007/s10072-020-04576-2" style="color:#445980;font-size:16px">Optical coherence tomography in adult adrenoleukodystrophy: a cross-sectional and longitudinal study</a></li>
-  <p> Bianchi-Marzoli, S., Fenu, S., Melzi, L. et al. <em style="color:#474524"> Neurol Sci (2020). </em></p>
+  <li> <a href="https://link.springer.com/article/10.1007/s10072-020-04576-2" style="color:#445980;font-size:18px">Optical coherence tomography in adult adrenoleukodystrophy: a cross-sectional and longitudinal study</a></li>
+  <p style="font-size:16px"> Bianchi-Marzoli, S., Fenu, S., Melzi, L. et al. <em style="color:#474524;font-size:16px"> Neurol Sci (2020). </em></p>
   </ol>
 
     
